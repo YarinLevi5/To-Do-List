@@ -1,0 +1,69 @@
+ body {
+     font-family: fantasy;
+     font-size: 14px;
+     background-color: rgb(66, 204, 238);
+ }
+
+ .wrap {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column;
+     height: 500px;
+ }
+
+ #mymis {
+     width: 160px;
+     padding: 10px;
+ }
+
+ .addMis {
+     display: flex;
+     flex-flow: row;
+ }
+
+ #plus {
+     background-color: blue;
+     color: white;
+     border: 1px solid black;
+     right: 520px;
+     margin-top: 10px;
+ }
+
+ h3 {
+     font-family: fantasy;
+     font-size: 30px;
+     border-bottom: 1px solid #000;
+     color: darkblue;
+ }
+
+ .done {
+     opacity: 80%;
+     text-decoration: line-through;
+ }
+
+ table {
+     width: 200px;
+ }
+
+ tr {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: column;
+     border: 1px solid black;
+ }
+
+ td {
+     border-bottom: 1px solid black;
+     padding: 5px;
+     text-align: center;
+     background-color: rgb(235, 213, 186);
+     position: relative;
+ }
+
+ button {
+     background-color: rgb(223, 231, 247);
+     position: absolute;
+     right: 5px;
+ }
